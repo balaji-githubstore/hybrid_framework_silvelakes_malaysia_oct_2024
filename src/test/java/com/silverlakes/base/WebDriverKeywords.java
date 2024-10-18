@@ -2,7 +2,9 @@ package com.silverlakes.base;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
+/**
+ * WebDriver Keywords used by the page object model
+ */
 public class WebDriverKeywords {
 
 	private WebDriver driver;
