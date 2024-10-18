@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.silverlakes.test.LoginTest">
+      <class name="com.silverlakes.test.LoginUITest">
         <methods>
+          <include name="titleTest"/>
           <include name="teardown"/>
           <include name="setup"/>
-          <include name="validLoginTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.silverlakes.test.LoginTest -->
+      </class> <!-- com.silverlakes.test.LoginUITest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
